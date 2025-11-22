@@ -68,3 +68,11 @@ Email the architect: `ajojose2006@gmail.com`
 
 ---
 *WARNING: UNAUTHORIZED ACCESS IS A FEDERAL OFFENSE. PROCEED AT YOUR OWN RISK.*
+
+## Stuff to do(help me please 😢)
+- [ ] Bring back the shake animation on wrong answers
+- [ ] Add music
+- [ ] Add a robot dialogue for the intro and outro
+- [ ] Add more levels and esp one on steganography
+- [ ] Deploy properly like the legends instead of netlfiy
+
