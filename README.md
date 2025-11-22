@@ -75,4 +75,6 @@ Email the architect: `ajojose2006@gmail.com`
 - [ ] Add a robot dialogue for the intro and outro
 - [ ] Add more levels and esp one on steganography
 - [ ] Deploy properly like the legends instead of netlfiy
+- [ ] Add some audio and video stuff
+- [ ] Intro level is a bit hard and not obvious compared to the rest
 
