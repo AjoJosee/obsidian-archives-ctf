@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /secret-admin-panel
+
+# FLAG{ROBOTS_CANT_KEEP_SECRETS}
