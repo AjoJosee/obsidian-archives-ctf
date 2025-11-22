@@ -49,6 +49,36 @@ const Challenge = () => {
         }
     };
 
+    // Sound Effects using Web Audio API
+    const playSound = (frequency, duration, type = 'success') => {
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        const oscillator = audioContext.createOscillator();
+        const gainNode = audioContext.createGain();
+
+        oscillator.connect(gainNode);
+        gainNode.connect(audioContext.destination);
+
+        oscillator.frequency.value = frequency;
+        oscillator.type = 'square'; // Retro sound
+
+        gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration);
+
+        oscillator.start(audioContext.currentTime);
+        oscillator.stop(audioContext.currentTime + duration);
+    };
+
+    const playSuccessSound = () => {
+        playSound(523.25, 0.1); // C5
+        setTimeout(() => playSound(659.25, 0.1), 100); // E5
+        setTimeout(() => playSound(783.99, 0.2), 200); // G5
+    };
+
+    const playErrorSound = () => {
+        playSound(200, 0.1);
+        setTimeout(() => playSound(150, 0.2), 100);
+    };
+
     useEffect(() => {
         if (levelId === 3) {
             const interval = setInterval(triggerNetworkRequest, 5000);
@@ -62,11 +92,13 @@ const Challenge = () => {
         const result = submitFlag(input);
         if (result.success) {
             setMessage(result.message);
+            playSuccessSound();
             setTimeout(() => {
                 navigate('/dashboard');
             }, 2000);
         } else {
             setMessage(result.message);
+            playErrorSound();
             setShake(true);
             setTimeout(() => setShake(false), 500);
         }
