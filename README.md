@@ -1,16 +1,70 @@
-# React + Vite
+# 🕵️‍♂️ The Obsidian Archives
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **"The truth is not out there. It's in here, encrypted."**
 
-Currently, two official plugins are available:
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-classified-red.svg)
+![Security](https://img.shields.io/badge/security-compromised-orange.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📜 The Narrative
+You have stumbled upon a legacy terminal used by **"The Obsidian Group"**, a shadow organization dismantled in the late 90s. Rumor has it their core database contains proof of extraterrestrial contact. The system is partially corrupted and locked down.
 
-## React Compiler
+**Your Mission:** Bypass the security layers, recover the fragmented credentials, and access the "Core Truth".
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎮 How to Play
+This is a **Capture The Flag (CTF)** style website. Each level requires you to use real-world web debugging and hacking techniques to find the "Flag".
 
-## Expanding the ESLint configuration
+1.  **Level 0: Entry** - Inspect the HTML source.
+2.  **Level 1: Clearance** - Check the Browser Console.
+3.  **Level 2: Authentication** - Investigate Cookies and Local Storage.
+4.  **Level 3: Interception** - Analyze Network Headers.
+5.  **Level 4: Decryption** - Crack the Code (Cryptography).
+6.  **Level 5: The Ghost** - Find hidden files (`robots.txt`).
+7.  **Level 6: Spectrum** - Analyze assets (Steganography).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+-   **Frontend:** React (Vite)
+-   **Styling:** Vanilla CSS (CSS Modules)
+-   **Deployment:** Netlify / Vercel
+-   **Theme:** Retro Terminal / Cyberpunk
+
+## 🚀 Running Locally
+
+### Prerequisites
+-   Node.js (v18+ recommended)
+-   npm
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/AjoJosee/obsidian-archives-ctf.git
+
+# Navigate to the directory
+cd obsidian-archives-ctf
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## 📂 Project Structure
+```
+src/
+├── components/   # Reusable UI components
+├── context/      # Game state management (GameContext)
+├── pages/        # Individual level logic (Challenge.jsx, Dashboard.jsx)
+├── assets/       # Images and styles
+└── main.jsx      # Entry point
+```
+
+## 🤝 Contributing
+This archive is open for analysis. If you find new ways to breach the system (bugs) or want to add new security layers (levels), feel free to open a Pull Request.
+
+## 📧 Contact
+Found something interesting?
+Email the architect: `ajojose2006@gmail.com`
+
+---
+*WARNING: UNAUTHORIZED ACCESS IS A FEDERAL OFFENSE. PROCEED AT YOUR OWN RISK.*
