@@ -74,7 +74,7 @@ Email the architect: `ajojose2006@gmail.com`
 
 ## Stuff to do(help me please 😢)
 - [ ] Bring back the shake animation on wrong answers
-- [ ] Add music
+- [x] Add music
 - [ ] Add a robot dialogue for the intro and outro
 - [ ] Add more levels and esp one on steganography
 - [ ] Deploy properly like the legends instead of netlfiy
