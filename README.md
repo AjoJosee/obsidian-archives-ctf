@@ -76,8 +76,8 @@ Email the architect: `ajojose2006@gmail.com`
 - [ ] Bring back the shake animation on wrong answers
 - [x] Add music
 - [ ] Add a robot dialogue for the intro and outro
-- [ ] Add more levels and esp one on steganography
-- [ ] Deploy properly like the legends instead of netlfiy
+- [ ] Add more levels and esp one on steganography,SQL injection, SSRF, more cryptography
+- [ ] Deploy properly with custom domain instead of netlfiy
 - [ ] Add some audio and video stuff
 - [ ] Intro level is a bit hard and not obvious compared to the rest
 
