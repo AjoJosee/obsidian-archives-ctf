@@ -6,6 +6,9 @@
 ![Status](https://img.shields.io/badge/status-classified-red.svg)
 ![Security](https://img.shields.io/badge/security-compromised-orange.svg)
 
+## Hosted Link
+https://resilient-malasada-ef03d4.netlify.app/
+
 ## 📜 The Narrative
 You have stumbled upon a legacy terminal used by **"The Obsidian Group"**, a shadow organization dismantled in the late 90s. Rumor has it their core database contains proof of extraterrestrial contact. The system is partially corrupted and locked down.
 
