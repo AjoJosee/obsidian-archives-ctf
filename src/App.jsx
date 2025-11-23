@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 import Challenge from './pages/Challenge';
 import NotFound from './pages/NotFound';
+import MusicPlayer from './components/MusicPlayer';
 
 const ProtectedRoute = ({ children }) => {
   const { level } = useGame();
@@ -16,6 +17,7 @@ const ProtectedRoute = ({ children }) => {
 const Layout = ({ children }) => {
   return (
     <div className="crt">
+      <MusicPlayer />
       <div className="container">
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
           <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>THE OBSIDIAN ARCHIVES</div>
