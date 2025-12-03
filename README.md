@@ -80,4 +80,4 @@ Email the architect: `ajojose2006@gmail.com`
 - [ ] Deploy properly with custom domain instead of netlfiy
 - [ ] Add some audio and video stuff
 - [ ] Intro level is a bit hard and not obvious compared to the rest
-
+- [ ] Can be deobfuscated easily so make it harder
